@@ -10,7 +10,7 @@ var a string
 
 func main() {
 	a = "Montival"
-	//a = "Montival" -> Forma de declarar e ja atribuir valor
+	//a := "Montival" -> Forma de declarar e ja atribuir valor
 	fmt.Println(a)
 	resultado := math.Soma(2, 4)
 	fmt.Printf("%T \n", resultado) // %T imprime o tipo da variável
